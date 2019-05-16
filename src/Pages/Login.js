@@ -2,6 +2,8 @@
 import React, { Component } from "react";
 import { parseJwt } from '../Services/Auth';
 
+import '../css/styleLogin.css';
+
 import Axios from 'axios';
 
 class longin extends Component {
@@ -41,7 +43,6 @@ class longin extends Component {
           this.props.history.push("/consultas");
         }
       })
-
   }
 
   render() {
